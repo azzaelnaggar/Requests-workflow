@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "request-workflow-client-side-solution",
+    "id": "74601054-5d29-4c5b-8fb1-3648aca9bee1",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "request-workflow description"
+      },
+      "longDescription": {
+        "default": "request-workflow description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "request-workflow Feature",
+        "description": "The feature that activates elements of the request-workflow solution.",
+        "id": "4aa910ec-5eff-4ddb-9888-366f1783d808",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/request-workflow.sppkg"
+  }
+}
