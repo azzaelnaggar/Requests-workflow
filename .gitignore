@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build generated files
+dist/
+lib/
+release/
+solution/
+temp/
+*.sppkg
+.heft/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Visual Studio / VS Code files
+.ntvs_analysis.dat
+.vs/
+.vscode/
+
+# TypeScript generated code
+*.js
+*.d.ts
+*.map
+
+# Resx / SCSS Generated Code
+*.resx.ts
+*.scss.ts
+
+# Environment files
+.env

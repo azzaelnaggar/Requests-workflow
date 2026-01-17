@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "request-workflow-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/requestWorkflow/RequestWorkflowWebPart.js",
+          "manifest": "./src/webparts/requestWorkflow/RequestWorkflowWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RequestWorkflowWebPartStrings": "lib/webparts/requestWorkflow/loc/{locale}.js"
+  }
+}
